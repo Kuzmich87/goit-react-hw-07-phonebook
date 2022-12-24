@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const CotainerHeader = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 export const Title = styled(Link)`
   display: block;
   font-size: 36px;
@@ -12,10 +18,6 @@ export const Title = styled(Link)`
 
   padding-top: 20px;
   padding-bottom: 20px;
-`;
-
-export const TitleColor = styled.span`
-  color: var(--accent-text-color);
 `;
 
 export const Button = styled(Link)`
