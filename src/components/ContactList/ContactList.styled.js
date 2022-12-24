@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const List = styled.ul`
   @media screen and (min-width: 768px) {
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin: -10px;
   }

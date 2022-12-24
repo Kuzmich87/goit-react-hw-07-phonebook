@@ -48,7 +48,7 @@ export const Name = styled.p`
   font-size: 18px;
   text-align: center;
 
-  background-color: black;
+  background-color: orange;
   color: var(--second-text-color);
 
   padding: 10px;
@@ -117,7 +117,7 @@ export const Button = styled.button`
   padding: 10px;
 
   border: none;
-  background-color: #2b2b2b;
+  background-color: orange;
   color: var(--second-text-color);
 
   cursor: pointer;
@@ -125,6 +125,6 @@ export const Button = styled.button`
 
   :hover,
   :focus {
-    background-color: var(--accent-bg-color);
+    background-color: var(--second-bg-color);
   }
 `;
